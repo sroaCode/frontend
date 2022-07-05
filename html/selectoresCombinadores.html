@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .descendiente p {
+            color: rgb(0, 153, 255);
+        }
+
+        .hijoDirecto>p {
+            color: red;
+        }
+
+        .adyacente + p{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="descendiente">
+        <p>Platzi</p>
+        <div>
+            <p>Hijo dentro de un div</p>
+        </div>
+    </div>
+    <p>Ejemplo de </p>
+    <p>selector para descendientes</p>
+
+    <div class="hijoDirecto">
+        <p>Platzi</p>
+        <section>
+            <p>Hijo dentro de un div</p>
+        </section>
+    </div>
+    <p>Ejemplo de </p>
+    <p>selector hijo directo</p>
+
+    <div class="adyacente">
+        <p>Platzi</p>
+        <section>
+            <p>Hijo dentro de un div</p>
+        </section>
+        
+    </div>
+    <p>selecciona a cualquier p que este debajo de .adyacente</p>
+    <p>ejemplo</p>
+    <p>selector adyacente</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            color: red
+        }
+
+        p {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+
+        #especificidad{
+            color: red;
+        }
+
+        .especificidad{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cascada y Espeficidad</h1>
+    image.png
+    <p>Color</p>
+
+    <div id="especificidad" class="especificidad">id vs class - gana id</div>
+</body>
+
+</html>
